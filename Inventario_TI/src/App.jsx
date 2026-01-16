@@ -1,11 +1,9 @@
-import Menu from './views/menu'
+import Menu from './views/menu';
 
 function App() {
 
   return (
-    <>
-      < Menu/>
-    </>
+    <Menu/>
   )
 }
 
