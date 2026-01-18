@@ -1,19 +1,16 @@
 import '../styles/menu.css'
+import {R_Menu} from '../Reusable_views/r_menu'
 
 export function Menu(){
     return(
 
-        <section>
-            <h2>Menu</h2>
-            
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto atque ipsum corrupti, fugit totam eveniet quas voluptates culpa, at explicabo rerum doloribus esse qui, maiores asperiores nam ipsa officiis in!</p>
-
-            <div>
-                <img src="https://preview.redd.it/250630-daniela-ig-update-now-im-somebody-you-dont-wanna-lose-v0-gkcfz4s842af1.jpg?width=1080&crop=smart&auto=webp&s=6c5ac2d12db29a03b9b20e972c19231c2c909447" alt="" />
-            </div>
-        </section>
+        <R_Menu 
+            name="Inventario" 
+            descripcion="Este permite registrar los productos que se envian o reciben para conocer con exactitud la cantidad de elementos con la que contamos dentro y fuera de la oficina." 
+            imagen="https://www.xamai.com/hubfs/Miniaturas%20junio%20(2)-3.webp"
+        />
     )
     
 }
 
-export default Menu
+export default Menu;
