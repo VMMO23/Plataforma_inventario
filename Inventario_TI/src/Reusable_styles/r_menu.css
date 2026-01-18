@@ -1,0 +1,36 @@
+.R-Menu{
+    background-color: #7d7d7d;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular';
+    color: #fff;
+    border-radius: 10px;
+    display: flex;
+    margin: 0px;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+}
+
+.R-Menu-Header{
+    font-size: 12px;
+}
+
+.R-Menu-Img{
+    width: 650px;
+    height: auto;
+    padding: 10px;
+}
+
+.R-Menu-info{
+    padding: 10px;
+    text-align: center;
+}
+
+.R-Menu-Button{
+    color: #fff;
+    background-color: #2991ed;
+    border: transparent;
+    border-radius: 5px;
+}
+
+
+

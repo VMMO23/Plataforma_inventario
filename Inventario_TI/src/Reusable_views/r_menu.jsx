@@ -9,14 +9,12 @@ export function R_Menu ({ name, descripcion, imagen}){
                 <div className="R-Menu-info">
                     {name}
                     <p>{descripcion}</p>
+
+                    <button className="R-Menu-Button">
+                    Ingresar
+                    </button>
                 </div>
             </header>
-
-            <aside>
-                <button className="R-Menu-Button">
-                    Ingresar
-                </button>
-            </aside>
         </article>
     )
 }
