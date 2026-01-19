@@ -5,6 +5,10 @@ export function Menu(){
     return(
 
         <article>
+
+            <h2>Menú</h2>
+            <p>Bienvenido Nombre_Empleado al menú de la plataforma de inventario</p>
+            
             <R_Menu 
                 name="Inventario" 
                 descripcion="Este permite registrar los productos que se envian o reciben para conocer con exactitud la cantidad de elementos con la que contamos dentro y fuera de la oficina." 

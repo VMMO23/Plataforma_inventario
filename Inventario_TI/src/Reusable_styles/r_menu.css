@@ -8,6 +8,8 @@
     justify-content: center;
     align-items: center;
     margin: 15px;
+    max-width: 400px;
+    box-shadow: #2991ed;
 }
 
 .R-Menu-Header{
@@ -15,14 +17,21 @@
 }
 
 .R-Menu-Img{
-    width: 650px;
+    display: block;
+    margin: 0 auto;
+    width: 350px;
     height: auto;
     padding: 10px;
+    border-radius: 20px;
 }
 
 .R-Menu-info{
     padding: 10px;
     text-align: center;
+}
+
+.R-Menu-Descripcion{
+    text-align: justify;
 }
 
 .R-Menu-Button{
