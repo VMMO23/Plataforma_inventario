@@ -4,13 +4,13 @@ export function Navbar(){
 
     return(
         <div>
-            <ol>
+            <ul>
                 <li></li>
                 <li></li>
                 <li></li>
                 <li></li>
                 <li></li>
-            </ol>
+            </ul>
         </div>
     )
 }
