@@ -1,0 +1,123 @@
+.login-container {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #f4f6f8, #e0e7ff);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-wrapper {
+  width: 90%;
+  max-width: 1000px;
+  min-height: 500px;
+  display: flex;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+  background: white;
+}
+
+/* Lado izquierdo */
+.login-left {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-card {
+  width: 85%;
+  max-width: 350px;
+}
+
+.login-card h2 {
+  font-size: 2rem;
+  font-weight: 800;
+  margin-bottom: 2rem;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  color: #080808;
+}
+
+/* Formularios */
+.form-group {
+  margin-bottom: 1.2rem;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.4rem;
+  font-weight: 700;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  color: #090909;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 0.7rem 0.8rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+.form-group input:focus {
+  outline: none;
+  border-color: #160eb0;
+}
+
+/* Botón */
+.login-btn {
+  width: 100%;
+  padding: 0.8rem;
+  margin-top: 1rem;
+  background: #75C3FF;
+  color: rgb(8, 8, 8);
+  border: none;
+  border-radius: 8px;
+  font-weight: 700;
+  font-size: 1rem;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.login-btn:hover {
+  background: #1883FF;
+}
+
+/* Enlace */
+.forgot-password {
+  display: block;
+  margin-top: 1.2rem;
+  text-align: center;
+  font-weight: 700;
+  font-size: 0.95rem;
+  color: #09090a;
+  text-decoration: none;
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+.forgot-password:hover {
+  text-decoration: underline;
+}
+
+/* Lado derecho */
+.login-right {
+  flex: 1;
+  background: linear-gradient(135deg, #f0eff8, #eeeef3);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  padding: 2rem;
+  text-align: center;
+}
+
+.login-logo-side {
+  width: 60%;
+  max-width: 240px;
+  margin-bottom: 1.5rem;
+}
+
+
