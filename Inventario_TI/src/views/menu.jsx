@@ -22,6 +22,12 @@ export function Menu(){
                 descripcion="Este permite llevar un seguimiento constante de lo que necesita cada zona, ya sea evidenciado por el equipo de TI o por los líderes de cada zona." 
                 imagen="https://www.xamai.com/hubfs/Miniaturas%20junio%20(2)-3.webp"
             />
+
+            <R_Menu 
+                name="Seguimiento" 
+                descripcion="Este permite llevar un seguimiento constante de lo que necesita cada zona, ya sea evidenciado por el equipo de TI o por los líderes de cada zona." 
+                imagen="https://www.xamai.com/hubfs/Miniaturas%20junio%20(2)-3.webp"
+            />
         </article>
     
     )
