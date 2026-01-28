@@ -1,15 +1,13 @@
 .R-Menu{
-    background-color: #7d7d7d;
+    box-shadow: 5px 5px 5px #d9d9d9;
+    border: 1px ridge #fff6f6;
     font-family: 'Lucida Sans', 'Lucida Sans Regular';
-    color: #fff;
     border-radius: 10px;
-    display: flex;
     margin: 0px;
     justify-content: center;
     align-items: center;
     margin: 15px;
     max-width: 400px;
-    box-shadow: #2991ed;
 }
 
 .R-Menu-Header{
@@ -25,8 +23,13 @@
     border-radius: 20px;
 }
 
+.R-Menu-Titulo{
+    color: #000;
+}
+
 .R-Menu-info{
     padding: 10px;
+    color: #999;
     text-align: center;
 }
 
@@ -39,6 +42,8 @@
     background-color: #2991ed;
     border: transparent;
     border-radius: 5px;
+    padding: 8px 20px;
+    margin: 8px;
 }
 
 

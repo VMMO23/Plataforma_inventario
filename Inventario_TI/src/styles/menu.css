@@ -1,0 +1,32 @@
+.Menu{
+    margin: 0;
+}
+
+.Menu-Div{
+    box-shadow: 5px 5px 8px #d8d7d7;
+    border: 1px ridge #f0f0f0;
+    border-radius: 5px;
+    width: 900px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.Menu-Header{
+    padding-top: 20px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.Menu-Parrafo{
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.Menu-Reusable{
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 40px;
+  flex-wrap: wrap; /* responsive */
+  flex-direction: row;
+}
