@@ -7,7 +7,7 @@ export function Menu(){
         <article className="Menu">
             <div className="Menu-Div">
                 <h2 className="Menu-Header">Menú</h2>
-                <p className="Menu-Parrafo">Bienvenido Nombre_Empleado al menú de la plataforma de inventario</p>
+                <p className="Menu-Parrafo">Bienvenido Nombre_Empleado al menú de la plataforma del área de TI, en este podras realizar segumiento, cargar envios o productos recibidos, actas y conocer el conteo exacto de cada elemento dentro y fuera de la ofina relaciona al área TI.</p>
             </div>
             
             <div className="Menu-Reusable">
