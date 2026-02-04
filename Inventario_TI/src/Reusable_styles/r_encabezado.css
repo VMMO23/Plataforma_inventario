@@ -1,0 +1,21 @@
+.Encabezado-Section{
+    margin: auto;
+    box-shadow: 5px 5px 8px #d8d8d8;
+    border: 1px ridge #f0f0f0;
+    border-radius: 5px;
+    width: 900px;
+    margin-top: 20px;
+}
+
+.Encabezado-Header{
+    padding-top: 10px;
+    padding-bottom: 7px;
+    text-align: center;
+}
+
+.Encabezado-Description{
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+
